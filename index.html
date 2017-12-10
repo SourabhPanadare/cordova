@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1"/>
+		<title>Ludo</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		
+		
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript">
+			function init(){
+				$('#oneplayer').addClass('animated bounceInRight');
+				$('#mutiplayer').addClass('animated bounceInLeft');
+				$('#help').addClass('animated bounceInRight');
+			
+			}
+$(window).load(function() { init(); });
+</script>
+
+	</head>
+	<body style=" background: url(images/background.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 play">
+					<img src="images/logo1.png" class="img-thumbnail"> 
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12 play">
+					<a  href="one-play.html" class="btn  play-btn" id="oneplayer" style="outline:none;text-decoration:none;">One Player</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 play">
+					<a  href="multiplayer.html" class="btn  play-btn" id="mutiplayer" style="text-decoration:none;">Multi Player</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 play">
+					<a  href="rule.html" class="btn  play-btn" id="help" style="text-decoration:none;">Help</a>
+				</div>
+			</div>
+			
+		</div>
+
+	</body>
