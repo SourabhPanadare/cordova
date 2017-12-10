@@ -1,5 +1,3 @@
-# cordova-ludo-app
-
 # Cordova Installation procedure
 
    sudo npm install -g cordova
